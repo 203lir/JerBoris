@@ -44,6 +44,45 @@ client.on('message', message => {
 	if ((message.content.search(/neel/i)) != -1) {
 		message.react('658504011745460225');
 	}
+	if ((message.content.search(/boris/i)) != -1) {
+		message.react('662452815695708191');
+	}
+	if ((message.content.search(/jerboa/i)) != -1) {
+		message.react('767917162496262176');
+	}
+	if ((message.content.search(/illuminati/i)) != -1) {
+		message.react('662457691494547506');
+	}
+	if ((message.content.search(/jerboris/i)) != -1) {
+		message.react('655251664449699844');
+	}
+	if ((message.content.search(/webassign/i)) != -1) {
+		message.react('660659550491508747');
+	}
+	if ((message.content.search(/hell/i)) != -1) {
+		message.react('660659550491508747');
+	}
+	if ((message.content.search(/get/i)) != -1) {
+		if ((message.content.search(/naed/i)) != -1) {
+			message.react('656348880383770645');
+		}
+	}
+	if ((message.content.search(/wtf/i)) != -1) {
+		message.react('656350900025163777');
+	}
+	if ((message.content.search(/emoji_8/i)) != -1) {
+		message.react('760301005589184592');
+	}
+	if ((message.content.search(/bald/i)) != -1) {
+		message.react('711993572064231483');
+	}
+	if ((message.content.search(/bald/i)) != -1) {
+		message.react('711993572064231483');
+	}
+	if ((message.content.search(/caecilius/i)) != -1) {
+		message.react('637429743511273472');
+	}
+
 });
 
 client.login('removedforsecurity');
