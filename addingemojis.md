@@ -1,0 +1,1 @@
+To add emojis which the bot reacts to, you must find the emoji ID. This can be done by typing \:emoji: in a server with the emoji. Then, add another if statement with the text to search for. See the previous code for examples of how to do this.

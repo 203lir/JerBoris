@@ -21,6 +21,15 @@ client.on('message', message => {
 	if ((message.content.search(/rome/i)) != -1) {
 		message.react('637435059087081513');
 	}
+	if ((message.content.search(/soulmate/i)) != -1) {
+		message.react('662859001993756672')
+	}
+	if ((message.content.search(/spiderus/i)) != -1) {
+		message.react('662859001993756672')
+	}
+	if ((message.content.search(/zoom/i)) != -1) {
+		message.react('719660062720917544')
+	}
 });
 
 client.login('removedforsecurity');
