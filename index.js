@@ -79,7 +79,7 @@ client.on('message', message => {
 	if ((message.content.search(/bald/i)) != -1) {
 		message.react('711993572064231483');
 	}
-	if ((message.content.search(/caecilius/i)) != -1) {
+	if ((message.content.search(/caecili/i)) != -1) {
 		message.react('637429743511273472');
 	}
 
