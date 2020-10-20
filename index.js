@@ -22,13 +22,21 @@ client.on('message', message => {
 		message.react('637435059087081513');
 	}
 	if ((message.content.search(/soulmate/i)) != -1) {
-		message.react('662859001993756672')
+		message.react('662859001993756672');
 	}
 	if ((message.content.search(/spiderus/i)) != -1) {
-		message.react('662859001993756672')
+		message.react('662859001993756672');
 	}
 	if ((message.content.search(/zoom/i)) != -1) {
-		message.react('719660062720917544')
+		message.react('719660062720917544');
+	}
+	if ((message.content.search(/sh/i)) != -1) {
+		if ((message.content.search(/han/i) != -1) {
+			message.react('662847131794669586');
+		}
+	}
+	if ((message.content.search(/roma invicta/i)) != -1) {
+		message.react('662458725734285340');
 	}
 });
 
