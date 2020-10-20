@@ -38,6 +38,12 @@ client.on('message', message => {
 	if ((message.content.search(/roma invicta/i)) != -1) {
 		message.react('662458725734285340');
 	}
+	if ((message.content.search(/richard/i)) != -1) {
+		message.react('662844367647539261');
+	}
+	if ((message.content.search(/neel/i)) != -1) {
+		message.react('658504011745460225');
+	}
 });
 
 client.login('removedforsecurity');
