@@ -1,0 +1,2 @@
+# JerBoris
+ Discord JerBoris bot
