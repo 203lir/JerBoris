@@ -31,7 +31,7 @@ client.on('message', message => {
 		message.react('719660062720917544');
 	}
 	if ((message.content.search(/sh/i)) != -1) {
-		if ((message.content.search(/han/i) != -1) {
+		if ((message.content.search(/han/i)) != -1) {
 			message.react('662847131794669586');
 		}
 	}
