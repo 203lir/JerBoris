@@ -82,7 +82,24 @@ client.on('message', message => {
 	if ((message.content.search(/caecili/i)) != -1) {
 		message.react('637429743511273472');
 	}
-
+	if ((message.content.search(/tums/i)) != -1) {
+		message.react('724952443808645183');
+	}
+	if ((message.content.search(/bryant/i)) != -1) {
+		message.react('656350756928094229');
+	}
+	if ((message.content.search(/byrnat/i)) != -1) {
+		message.react('656350756928094229');
+	}
+	if ((message.content.search(/b+/i)) != -1) {
+		message.react('658501731948167179');
+	}
+	if ((message.content.search(/badminton/i)) != -1) {
+		message.react('662458067098533908');
+	}
+	if ((message.content.search(/8_ijome/i)) != -1) {
+		message.react('763110306276311090');
+	}
 });
 
 client.login('removedforsecurity');
