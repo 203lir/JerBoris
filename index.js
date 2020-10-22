@@ -91,9 +91,6 @@ client.on('message', message => {
 	if ((message.content.search(/byrnat/i)) != -1) {
 		message.react('656350756928094229');
 	}
-	if ((message.content.search(/b+/i)) != -1) {
-		message.react('658501731948167179');
-	}
 	if ((message.content.search(/badminton/i)) != -1) {
 		message.react('662458067098533908');
 	}
