@@ -138,7 +138,7 @@ client.on('message', message => {
 	if ((message.content.search(/sofie/i)) != -1) {
 		message.react('768900269311393802');
 	}
-	if ((message.content.search(/sofie/i)) != -1) {
+	if ((message.content.search(/seva/i)) != -1) {
 		message.react('753744399275655209');
 	}
 });
