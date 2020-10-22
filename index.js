@@ -45,7 +45,9 @@ client.on('message', message => {
 		message.react('658504011745460225');
 	}
 	if ((message.content.search(/boris/i)) != -1) {
-		message.react('662452815695708191');
+		if ((message.content.search(/jerboris/i)) == -1) {
+			message.react('662452815695708191');
+		}
 	}
 	if ((message.content.search(/jerboa/i)) != -1) {
 		message.react('767917162496262176');
