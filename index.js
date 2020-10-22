@@ -100,6 +100,42 @@ client.on('message', message => {
 	if ((message.content.search(/8_ijome/i)) != -1) {
 		message.react('763110306276311090');
 	}
+	if ((message.content.search(/kevin/i)) != -1) {
+		message.react('768627647940263976');
+	}
+	if ((message.content.search(/memoli/i)) != -1) {
+		message.react('768627744782680085');
+	}
+	if ((message.content.search(/shiteqhan/i)) != -1) {
+		message.react('768627744782680085');
+	}
+	if ((message.content.search(/ella/i)) != -1) {
+		message.react('768627534711357472');
+	}
+	if ((message.content.search(/sped/i)) != -1) {
+		message.react('768627676998926377');
+	}
+	if ((message.content.search(/julia/i)) != -1) {
+		message.react('768627572262174770');
+	}
+	if ((message.content.search(/joey/i)) != -1) {
+		message.react('768627611366064178');
+	}
+	if ((message.content.search(/among us/i)) != -1) {
+		message.react('768627779053813760');
+	}
+	if ((message.content.search(/aogmn su/i)) != -1) {
+		message.react('768627779053813760');
+	}
+	if ((message.content.search(/erika/i)) != -1) {
+		message.react('768627709411983360');
+	}
+	if ((message.content.search(/natalie/i)) != -1) {
+		message.react('768627812353310741');
+	}
+	if ((message.content.search(/nat z/i)) != -1) {
+		message.react('768627812353310741');
+	}
 });
 
 client.login('removedforsecurity');
