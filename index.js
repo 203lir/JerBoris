@@ -108,7 +108,7 @@ client.on('message', message => {
 	if ((message.content.search(/shiteqhan/i)) != -1) {
 		message.react('768627744782680085');
 	}
-	if ((message.content.search(/ella/i)) != -1) {
+	if ((message.content.search(/ ella/i)) != -1) {
 		message.react('768627534711357472');
 	}
 	if ((message.content.search(/sped/i)) != -1) {
