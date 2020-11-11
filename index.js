@@ -108,7 +108,7 @@ client.on('message', message => {
 	if ((message.content.search(/shiteqhan/i)) != -1) {
 		message.react('768627744782680085');
 	}
-	if ((message.content.search(/ ella/i)) != -1) {
+	if ((message.content.search(/ella/i)) != -1) {
 		message.react('768627534711357472');
 	}
 	if ((message.content.search(/sped/i)) != -1) {
@@ -140,6 +140,30 @@ client.on('message', message => {
 	}
 	if ((message.content.search(/seva/i)) != -1) {
 		message.react('753744399275655209');
+	}
+	if ((message.content.search(/theo/i)) != -1) {
+		message.react('776115561997664276');
+	}
+	if ((message.content.search(/dan/i)) != -1) {
+		message.react('776120703681822761');
+	}
+	if ((message.content.search(/tobi/i)) != -1) {
+		message.react('775756211051954176');
+	}
+	if ((message.content.search(/tube ass/i)) != -1) {
+		message.react('775756211051954176');
+	}
+	if ((message.content.search(/andy/i)) != -1) {
+		message.react('776121004396904489');
+	}
+	if ((message.content.search(/adny/i)) != -1) {
+		message.react('776121004396904489');
+	}
+	if ((message.content.search(/shreya/i)) != -1) {
+		message.react('776120355944267799');
+	}
+	if ((message.content.search(/mackenzie/i)) != -1) {
+		message.react('776120515869278299');
 	}
 });
 
