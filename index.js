@@ -165,6 +165,18 @@ client.on('message', message => {
 	if ((message.content.search(/mackenzie/i)) != -1) {
 		message.react('776120515869278299');
 	}
+	if ((message.content.search(/shivam/i)) != -1) {
+		message.react('781198982088359999');
+	}
+	if ((message.content.search(/mr s/i)) != -1) {
+		message.react('781198982088359999');
+	}
+	if ((message.content.search(/mr. s/i)) != -1) {
+		message.react('781198982088359999');
+	}
+	if ((message.content.search(/orange wall/i)) != -1) {
+		message.react('719660062720917544');
+	}
 });
 
 client.login('removedforsecurity');
