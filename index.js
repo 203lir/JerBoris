@@ -177,6 +177,11 @@ client.on('message', message => {
 	if ((message.content.search(/orange wall/i)) != -1) {
 		message.react('719660062720917544');
 	}
+	if ((message.content.search(/richard/i)) != -1) {
+		if ((message.content.search(/basement/i)) != -1) {
+			message.reply('This comment is disapproved of. Your social credit score has dropped by 1.');
+		}
+	}
 });
 
 client.login('removedforsecurity');
