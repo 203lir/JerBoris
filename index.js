@@ -135,7 +135,7 @@ client.on('message', message => {
 	if ((message.content.search(/nat z/i)) != -1) {
 		message.react('768627812353310741');
 	}
-	if ((message.content.search(/sofie/i)) != -1) {
+	if ((message.content.search(/jake/i)) != -1) {
 		message.react('768900269311393802');
 	}
 	if ((message.content.search(/seva/i)) != -1) {
@@ -144,7 +144,10 @@ client.on('message', message => {
 	if ((message.content.search(/theo/i)) != -1) {
 		message.react('776115561997664276');
 	}
-	if ((message.content.search(/dan/i)) != -1) {
+	if ((message.content.search(/dan /i)) != -1) {
+		message.react('776120703681822761');
+	}
+	if ((message.content.search(/daniel/i)) != -1) {
 		message.react('776120703681822761');
 	}
 	if ((message.content.search(/tobi/i)) != -1) {
